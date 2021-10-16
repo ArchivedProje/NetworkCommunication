@@ -8,6 +8,7 @@ enum Requests {
     Auth,
     GetUsers,
     GetFile,
+    Msg,
     Unknown,
 };
 
