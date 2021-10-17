@@ -9,6 +9,7 @@ enum Requests {
     GetUsers,
     GetFile,
     Msg,
+    Disconnect,
     Unknown,
 };
 
