@@ -13,6 +13,10 @@ enum Requests {
     Unknown,
 };
 
+enum Status {
+    Important,
+};
+
 namespace Replies {
     enum Auth {
         Successful,
