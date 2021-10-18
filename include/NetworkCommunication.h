@@ -15,6 +15,7 @@ enum Requests {
 
 enum Status {
     Important,
+    UnImportant,
 };
 
 namespace Replies {
