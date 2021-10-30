@@ -7,6 +7,7 @@
 enum Requests {
     Auth,
     GetUsers,
+    ConnectToUser,
     GetFile,
     Msg,
     Disconnect,
