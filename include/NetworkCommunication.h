@@ -6,7 +6,6 @@
 
 enum Requests {
     Auth,
-    StillAlive,
     GetUsers,
     ConnectToUser,
     GetFile,
