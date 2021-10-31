@@ -6,6 +6,7 @@
 
 enum Requests {
     Auth,
+    StillAlive
     GetUsers,
     ConnectToUser,
     GetFile,
@@ -23,6 +24,10 @@ namespace Replies {
     enum Auth {
         Successful,
         Unsuccessful,
+    };
+    enum StillAlive {
+        Yes,
+        No,
     };
     enum Unknown {
         Unknown
