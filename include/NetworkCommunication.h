@@ -25,10 +25,6 @@ namespace Replies {
         Successful,
         Unsuccessful,
     };
-    enum StillAlive {
-        Yes,
-        No,
-    };
     enum Unknown {
         Unknown
     };
