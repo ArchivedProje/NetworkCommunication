@@ -24,6 +24,11 @@ namespace Replies {
         Successful,
         Unsuccessful,
     };
+    enum ConnectToUser {
+        Accept,
+        Deny,
+        Disconnected,
+    };
     enum Unknown {
         Unknown
     };
