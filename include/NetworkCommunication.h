@@ -25,6 +25,7 @@ namespace Replies {
         Unsuccessful,
     };
     enum ConnectToUser {
+        Invite,
         Accept,
         Deny,
         Disconnected,
