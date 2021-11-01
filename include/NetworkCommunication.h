@@ -27,7 +27,7 @@ namespace Replies {
     enum ConnectToUser {
         Invite,
         Accept,
-        Deny,
+        Decline,
         Disconnected,
     };
     enum Unknown {
