@@ -28,6 +28,7 @@ namespace Replies {
         Invite,
         Accept,
         Decline,
+        GetIp,
         Disconnected,
     };
     enum Unknown {
