@@ -30,6 +30,7 @@ namespace Replies {
         Accept,
         Decline,
         Disconnected,
+        GetIp,
     };
     enum Unknown {
         Unknown
