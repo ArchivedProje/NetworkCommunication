@@ -10,6 +10,7 @@ enum Requests {
     ConnectToUser,
     GetFile,
     Msg,
+    UserMsg,
     Disconnect,
     Unknown,
 };
@@ -28,7 +29,6 @@ namespace Replies {
         Invite,
         Accept,
         Decline,
-        GetIp,
         Disconnected,
     };
     enum Unknown {
