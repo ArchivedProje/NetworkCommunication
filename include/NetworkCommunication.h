@@ -32,6 +32,10 @@ namespace Replies {
         Disconnected,
         GetIp,
     };
+    enum GetAllFiles {
+        Take,
+        Get,
+    };
     enum Unknown {
         Unknown
     };
