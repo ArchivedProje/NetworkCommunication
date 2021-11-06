@@ -33,13 +33,13 @@ namespace Replies {
         GetIp,
     };
     enum GetAllFiles {
-        Take,
-        Get,
+        TakeAllFiles,
+        GetAllFiles,
         NoFiles,
     };
     enum GetFile {
-        Take,
-        Get,
+        TakeFile,
+        GetFile,
     };
 }
 
