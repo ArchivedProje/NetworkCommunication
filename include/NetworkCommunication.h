@@ -40,6 +40,7 @@ namespace Replies {
     enum GetFile {
         TakeFile,
         GetFile,
+        NoFile,
     };
 }
 
