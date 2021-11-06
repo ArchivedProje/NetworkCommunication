@@ -9,10 +9,10 @@ enum Requests {
     GetUsers,
     ConnectToUser,
     GetAllFiles,
+    GetFile,
     Msg,
     UserMsg,
     Disconnect,
-    Unknown,
 };
 
 enum Status {
@@ -35,9 +35,11 @@ namespace Replies {
     enum GetAllFiles {
         Take,
         Get,
+        NoFiles,
     };
-    enum Unknown {
-        Unknown
+    enum GetFile {
+        Take,
+        Get,
     };
 }
 
