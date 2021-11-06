@@ -41,6 +41,7 @@ namespace Replies {
         TakeFile,
         GetFile,
         NoFile,
+        FileExists,
     };
 }
 
